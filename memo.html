@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>万年历</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/app.js"></script>
+
+
+</head>
+<body>
+<div class="memo_top">
+    <a href="index.html" class="top_back">取消</a>
+    <a class="top_confirm">确定</a>
+</div>
+<div class="memo_select">
+    <div class="iconBox" select="selected"><i class="iconfont iconTop" select="selected">&#xe605;</i>日程</div>
+    <div class="iconBox"><i class="iconfont iconTop">&#xe677;</i>生日</div>
+    <div class="iconBox"><i class="iconfont iconTop">&#xe617;</i>纪念日</div>
+    <div class="iconBox"><i class="iconfont iconTop">&#xe641;</i>倒数日</div>
+</div>
+<div class="memo_time">
+
+</div>
+<form  class="TextBox">
+    <input type="text" class="text-title" placeholder="请输入事件标题">
+    <textarea  class="text-content" placeholder="请输入备注内容"></textarea>
+</form>
+<script src="js/db.js"></script>
+</body>
+</html>
